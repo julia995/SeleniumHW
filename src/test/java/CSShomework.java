@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class CSS {
+public class CSShomework {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
 
@@ -42,7 +42,7 @@ public class CSS {
         //course topic
         WebElement topic = driver.findElement(By.cssSelector("input[name*='CourseTopic']"));
         topic.sendKeys("CSS selectors");
-        
+
 
 
 
